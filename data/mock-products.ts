@@ -1,0 +1,53 @@
+import { Product } from "@/types";
+
+export const mockProducts: Product[] = [
+    {
+      id: '1',
+      name: 'High-Performance Running Shoes',
+      description: 'Lightweight and comfortable shoes, perfect for marathon runners.',
+      price: 129.99,
+      store: 'Amazon',
+      rating: 4.8,
+      reviewCount: 1200,
+      imageUrl: '/placeholder-image.svg',
+      affiliateLink: 'https://amazon.com/product/1',
+      shippingInfo: 'Ships in 2 days',
+    },
+    {
+        id: '2',
+        name: 'Wireless Noise-Cancelling Headphones',
+        description: 'Immerse yourself in music with these top-tier headphones.',
+        price: 349.00,
+        store: 'Best Buy',
+        rating: 4.9,
+        reviewCount: 3500,
+        imageUrl: '/placeholder-image.svg',
+        affiliateLink: 'https://bestbuy.com/product/2',
+        shippingInfo: 'Ships in 1-3 days',
+      },
+      {
+        id: '3',
+        name: 'Organic Cotton Bath Towel Set',
+        description: 'Soft, absorbent, and eco-friendly towels for your bathroom.',
+        price: 49.50,
+        store: 'Target',
+        rating: 4.6,
+        reviewCount: 540,
+        imageUrl: '/placeholder-image.svg',
+        affiliateLink: 'https://target.com/product/3',
+        shippingInfo: 'Ships in 3-5 days',
+      },
+      {
+        id: '4',
+        name: '14-inch Laptop for Programming',
+        description: 'Powerful laptop with a great keyboard, ideal for developers.',
+        price: 999.99,
+        store: 'Walmart',
+        rating: 4.7,
+        reviewCount: 890,
+        imageUrl: '/placeholder-image.svg',
+        affiliateLink: 'https://walmart.com/product/4',
+        shippingInfo: 'Free shipping',
+      },
+  ];
+  
